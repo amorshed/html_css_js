@@ -1,0 +1,101 @@
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ol,
+ul,
+li,
+a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0 0 0 0;
+}
+
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: #B56663;
+}
+
+.header a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.main-content {
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dddddd;
+    margin: 30px 0 0 0;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    padding: 6px 3px 0px 0px;
+    margin: 10px 0px 15px 0px;
+    color: #ffffff;
+}
+
+h2 {
+    margin: 10px 0px 20px 0px;
+    color: #7FACAA;
+}
+
+h3 {
+    margin: 15px 0px 15px 0px;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+    color: #7FACAA;
+}
+
+p {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+ol {
+    padding: 0 0 0 50px;
+}
+
+ul {
+    padding: 0 0 0 50px;
+}
+
+.nav {
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.recipes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes li {
+    border: 1px solid #b56663;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.recipes h3 {
+    border-bottom: 0;
+}
+
+.recipes a {
+    color: #7FACAA;
+    text-decoration: none;
+}
